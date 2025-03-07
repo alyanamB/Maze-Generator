@@ -12,13 +12,13 @@ This C++ program generates a randomized maze using a depth-first search algorith
 ```sh
 g++ -o maze_generator main.cpp maze.cpp
 ```
-### ***Run Program***
+### ***Run the Program***
 ```sh
 ./maze_generator <seed> <rows> <cols> <output_file>
 ```
 
 ## File Format
-- output.txt (or user-specified file): Contains the numerical representation of the maze.
+- output.txt (or user-specified file): Contains the numerical representation of the maze, where each cell's numerical value represents its walls and open paths.
 
 ## Project Structure
 ```sh
