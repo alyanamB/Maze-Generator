@@ -28,7 +28,7 @@ private:
     //vector for visited cells.
     std::vector<std::vector<bool>> visited;
 
-//for all public mattributes and methods.
+//for all public attributes and methods.
 public:
     
     //constructor
